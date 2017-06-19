@@ -1,5 +1,5 @@
 #intro {
-	background-image: url('pwebsite/selfie2Small2.gif');
+	background-image: url('pwebsite/Selfie2Small2.gif');
 	width:100%; 
 	height:650px; 
 	margin: auto;
@@ -31,9 +31,41 @@
 	font-family: 'Racing Sans One', cursive;
 }
 
+#video {
+	background-image: url('pwebsite/filmGif.gif');
+	background-color: #98c1ff;
+	width:100%; 
+	height:650px; 
+	margin: auto;
+	max-width: 1920px;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+#video h1 {
+	color: #ffffff;
+	text-align: center; 
+	display: inline-block;
+	vertical-align: middle; 
+	padding-left: 900px;   
+	font-size: 100px;
+	font-family: 'Racing Sans One', cursive;
+}
+
+#video h2 {
+	font-family: 'Racing Sans One', cursive;
+	padding-left: 700px;
+	color: black;
+}
+
+#video a {
+    text-decoration: none;
+    color: #2f2f2f;
+    font-size: 50px;
+}
 
 #photography {
-	background-image: url('pwebsite/photographyBG.jpg');
+	background-image: url('pwebsite/photographyGifSmall.gif');
 
 	background-color: #98c1ff;
 	width:100%; 
@@ -54,40 +86,10 @@
 }
 
 
-#video {
-	background-image: url('pwebsite/filmBG.jpg');
-	background-color: #98c1ff;
-	width:100%; 
-	height:650px; 
-	margin: auto;
-	max-width: 1920px;
-	background-size:cover;
-	background-repeat: no-repeat;
-}
-
-#video h1 {
-	color: #ffffff;
-	text-align: center; 
-	display: inline-block;
-	vertical-align: middle; 
-	padding-left: 900px;   
-	font-size: 100px;
-	font-family: 'Racing Sans One', cursive;
-}
-
-.container h2 {
-	font-family: 'Racing Sans One', cursive;
-}
-
-#video h2 {
-	font-family: 'Racing Sans One', cursive;
-	padding-left: 700px;
-	color: black;
-}
 
 #photography h2 {
 	font-family: 'Racing Sans One', cursive;
-	color: black;
+	color: #767c7c;
 }
 
 #contact h1 {
@@ -96,14 +98,14 @@
 	font-family: 'Racing Sans One', cursive;
 }
 
-#video a {
-    text-decoration: none;
-    color: #2f2f2f;
-    font-size: 50px;
-}
 
 #photography a {
     text-decoration: none;
-    color: #2f2f2f;
+	color: #767c7c;
     font-size: 50px;
+}
+
+
+.container h2 {
+	font-family: 'Racing Sans One', cursive;
 }
